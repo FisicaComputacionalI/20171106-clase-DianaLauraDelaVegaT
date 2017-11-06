@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+int calificacion;
+  int main(){
+  cout<<"Escribe la calificacion del examen entre las siguientes opciones:8,9,10"<<endl;
+  cin>>calificacion;
+  cout<<"Escribe la calificacion de tareas"<<endl;
+  cin>>calificacion;
+  cout<<"Escribe la calificacion de participaciones"<<endl;
+  cin>>calificacion;
+  char califica; 
+  switch (calificacion){
+   case 8: cout<<"calificacion final = calificacion examen + tareas*.015+ participacion*0.15"<<endl; break;
+   case 9: cout<<"calificacion final"<<endl; break;
+   case 10 : cout <<"calificacion final es 10"<<endl; break;
+  default: cout<<"opcion no valida"<<endl;
+ }
+  return 0;
+}
