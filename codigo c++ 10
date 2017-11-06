@@ -6,6 +6,7 @@ int main(){
 char variable;
 cout<<"Escribe una opcion entre A,B,C,D,F"<<endl;
 cin>>variable;
+variable=toupper(variable);
 switch(variable){
   case 'A':cout<<"Excelente"<<endl; break;
   case 'B':cout<<"Muy Bien"<<endl; break;
